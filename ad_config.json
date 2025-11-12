@@ -1,0 +1,87 @@
+{
+  "version": "3.0.0",
+  "last_updated": "2025-11-11T14:38:00Z",
+  
+  "global_ad_settings": {
+    "all_ads_enabled": false,
+    "ad_free_mode": false,
+    "ad_provider": "meta"
+  },
+  
+  "qureka_settings": {
+    "enabled": true,
+    "redirect_url": "https://www.tridevtechnologies.com/",
+    "fallback_url": "https://www.tridevtechnologies.com/",
+    "show_after_survey": false,
+    "show_after_quiz": false
+  },
+  
+  "custom_ads": {
+    "banner": {
+      "asset": "assets/images/native_ads.jpg"
+    },
+    "native": {
+      "asset": "assets/images/banner_ads.jpg"
+    }
+  },
+  
+  
+  "ad_types": {
+    "banner_ads": {
+      "enabled": true,
+      "google_ads": {
+        "ad_unit_id_android": "ca-app-pub-3940256099942544/6300978111",
+        "ad_unit_id_ios": "ca-app-pub-3940256099942544/2934735716"
+      },
+      "meta_ads": {
+        "placement_id_android": "YOUR_META_BANNER_PLACEMENT_ID_ANDROID",
+        "placement_id_ios": "YOUR_META_BANNER_PLACEMENT_ID_IOS"
+      },
+      "screens": [
+        "home_screen",
+        "quick_quiz_screen",
+        "settings_screen",
+        "survey_steps_screen"
+      ]
+    },
+    
+    "interstitial_ads": {
+      "enabled": true,
+      "frequency": 2,
+      "google_ads": {
+        "ad_unit_id_android": "ca-app-pub-3940256099942544/1033173712",
+        "ad_unit_id_ios": "ca-app-pub-3940256099942544/4411468910"
+      },
+      "meta_ads": {
+        "placement_id_android": "YOUR_META_INTERSTITIAL_PLACEMENT_ID_ANDROID",
+        "placement_id_ios": "YOUR_META_INTERSTITIAL_PLACEMENT_ID_IOS"
+      },
+      "screens": [
+        "splash_screen",
+        "home_screen",
+        "quick_quiz_screen",
+        "settings_screen",
+        "survey_steps_screen"
+      ]
+    },
+    
+    "native_ads": {
+      "enabled": true,
+      "provider": "custom",
+      "google_ads": {
+        "ad_unit_id_android": "ca-app-pub-3940256099942544/2247696110",
+        "ad_unit_id_ios": "ca-app-pub-3940256099942544/3986624511"
+      },
+      "meta_ads": {
+        "placement_id_android": "YOUR_META_NATIVE_PLACEMENT_ID_ANDROID",
+        "placement_id_ios": "YOUR_META_NATIVE_PLACEMENT_ID_IOS"
+      },
+      "screens": [
+        "quick_quiz_screen",
+        "settings_screen",
+        "survey_steps_screen",
+        "download_guide_screen"
+      ]
+    }
+  }
+}
